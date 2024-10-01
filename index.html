@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .p {
+            background-image: url(papier.png);
+            background-size: 100px 100px; 
+            width: 100px;
+            height: 100px;
+            border: none;
+            cursor: pointer;    
+        }
+        .k {
+            background-image: url(kamien.jpg);
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+            border: none;
+            cursor: pointer;
+        }
+        .n {
+            background-image: url(nozyce.jpg);
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+    <script src="./main.js"></script>
+</head>
+<body style="background-color: white;" >
+    <h1 style="text-align: center; color: gray;">GRA</h1>
+    <table align="center" ><tr><td> 
+
+        <input type="button" class="p" id="p" onclick="selectt('p')">
+        <input type="button" class="k" id="k" onclick="selectt('k')">
+        <input type="button" class="n" id="n" onclick="selectt('n')">
+        
+
+    </td></tr></table>
+    <h2 style="text-align: center;" id="res"></h2>
+</body>
+</html>
